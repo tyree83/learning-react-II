@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import HelloWorld from "./HelloWorld";
 import "./index.css";
+import IPAddressContainer from "./IPAddressContainer";
+ 
+var destination = document.querySelector("#container");
  
 ReactDOM.render(
-    <HelloWorld/>,
-    document.getElementById("root")
+    <div>
+        <IPAddressContainer/>
+    </div>,
+    destination
 );
